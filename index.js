@@ -11,11 +11,10 @@ let massEl = document.getElementById("length");
 let volumeEl = document.getElementById("volume");
 let massEl = document.getElementById("mass");
 
+function convert(){
+    displayEl.textContent = 12;
+};
 
-
-convertEl.addEventListener("click", function(){
-    displayEl.textContent = 30;
-});
 
 
 
