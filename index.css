@@ -4,7 +4,7 @@ body {
 }
 .container{
     width: 350px;
-    height: 515px;
+    height: 550px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -52,6 +52,8 @@ button{
 
 }
 .row{
+    height: 50px;
+    width: auto;
     background-color: white;
     color: black;
     margin: 10px;
