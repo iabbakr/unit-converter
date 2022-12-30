@@ -15,7 +15,7 @@ let conv = 0;
 
 
 convertEl.addEventListener("click", function(){
-    let hi = conv + 1;
+    conv = conv + 1;
     displayEl.textContent += hi;
 });
 
