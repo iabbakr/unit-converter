@@ -5,7 +5,7 @@
 */
 
 let disp = document.getElementById("#display");
-let conv = document.getElementById("converter");
+let conv = document.getElementById("#converter");
 
 let convEl = 0;
 
