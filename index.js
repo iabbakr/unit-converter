@@ -4,8 +4,8 @@
 1 kilogram = 2.204 pound
 */
 
-let disp = document.getElementById("#display");
-let conv = document.getElementById("#converter");
+let disp = document.getElementById("display");
+let conv = document.getElementById("converter");
 
 let convEl = 0;
 
