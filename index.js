@@ -11,8 +11,8 @@ let convEl = 0;
 
 
 conv.addEventListener("click", function(){
-    let hi = conv + 1;
-    disp.textContent += hi;
+    let hi = convEl + 1;
+    disp.textContent += convEl;
 });
 
 
