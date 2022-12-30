@@ -12,6 +12,8 @@ body {
 
 }
 .row1{
+    height: 200;
+    width: auto;
     margin: 0;
     background-color: violet;
     color: white;
