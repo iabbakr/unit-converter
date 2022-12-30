@@ -7,7 +7,7 @@ body {
     height: 300px;
     display: block;
     margin-left: auto;
-    margin-left: auto;
+    margin-right: auto;
     background-color: grey;
 
 }
@@ -24,21 +24,22 @@ body {
 
 }
 #display{
-    height: 100px;
-    width: 150;
+    height: 50px;
+    width: 100;
     background-color: violet;
     border: 1px solid white;
     font-weight: 100;
 
 
 }
-#converter{
+button{
     height: 45;
     width: 150;
     background-color: beige;
     color: white;
     border-radius: 5px;
     padding: 8px 14px;
+    border: none;
 
 }
 .row{
