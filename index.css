@@ -31,8 +31,10 @@ body {
     width: 100;
     background-color: violet;
     border: 1px solid white;
-    font-weight: 100;
+    font-weight: bolder;
     color: white;
+    font-size: larger;
+    padding: 15px 20px;
 
 
 }
