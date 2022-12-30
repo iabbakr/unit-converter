@@ -7,12 +7,12 @@
 let displayEl = document.getElementById("display");
 let convertEl = document.getElementById("converter");
 
-let massEl = document.getElementById("length");
+let lengthEl = document.getElementById("length");
 let volumeEl = document.getElementById("volume");
 let massEl = document.getElementById("mass");
 
 function convert(){
-    displayEl.textContent = 12;
+    displayEl.textContent += 12;
 };
 
 
