@@ -16,10 +16,10 @@ let k = 2;
 convertEl.addEventListener("click", function(){
     disp.push(displayEl.value);
 
-    let s = disp + k;
+    let s = parseInt(disp) + k;
     let hi = `
         <p>
-           "hell" Number.${s} "hi"
+           "hell" ${s} "hi"
         <p>`;
     
     massEl.innerHTML += hi;
