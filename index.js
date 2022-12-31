@@ -4,6 +4,7 @@
 1 kilogram = 2.204 pound
 */
 
+let disp = []
 let displayEl = document.getElementById("display");
 let convertEl = document.getElementById("converter");
 
@@ -43,8 +44,9 @@ function volume(){
 };
 
 function mass(){
+    disp.push(displayEl.value);
     let mas = displayEl * 2.204;
-    hi = `
+    let hi = `
     <h3>
         Length (Meter/Feet)
     </h3>
