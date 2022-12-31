@@ -16,9 +16,7 @@ convertEl.addEventListener("click", function(){
         <h3>
             Length (Meter/Feet)
         </h3>
-        <p>
-            ${displayEl} "kilos = " ${mas}
-        </p>
+        
     `;
     
     massEl.innerHTML += hi;
