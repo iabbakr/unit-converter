@@ -7,7 +7,7 @@
 let disp = [];
 let displayEl = document.getElementById("display");
 let convertEl = document.getElementById("converter");
-let massEl = document.getElementById("mass");
+let massEl = document.getElementById("row");
 
 
 
