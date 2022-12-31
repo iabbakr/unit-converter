@@ -7,15 +7,17 @@
 let disp = [];
 let displayEl = document.getElementById("display");
 let convertEl = document.getElementById("converter");
-let massEl = document.getElementById("row");
+let massEl = document.getElementById("mass");
 
 
 
 convertEl.addEventListener("click", function(){
     let hi = `
+    <div id="#row">
         <h4>
             Length (Meter/Feet)
         </h4>
+    </div>
         
     `;
     
