@@ -9,9 +9,7 @@ let displayEl = document.getElementById("display");
 let convertEl = document.getElementById("converter");
 let massEl = document.getElementById("mass");
 
-convertEl.addEventListener("click", function(){
-    
-    let hi = `
+let hi = `
         <h3>
             Length (Meter/Feet)
         </h3>
@@ -20,8 +18,10 @@ convertEl.addEventListener("click", function(){
         </p>
     `;
 
+convertEl.addEventListener("click", function(){
+    
     massEl.innerHTML += hi;
-})
+});
 
 
 //
