@@ -16,7 +16,7 @@ let k = 2;
 convertEl.addEventListener("click", function(){
     disp.push(displayEl.value);
 
-    let s = disp * k;
+    let s = disp + k;
     let hi = `
         <p>
            "hell" ${s} "hi"
