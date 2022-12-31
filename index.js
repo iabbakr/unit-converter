@@ -9,12 +9,15 @@ let displayEl = document.getElementById("display");
 let convertEl = document.getElementById("converter");
 let massEl = document.getElementById("mass");
 
+let k = 2;
+
 
 
 convertEl.addEventListener("click", function(){
+    disp.push(displayEl.value);
     let hi = `
         <p>
-            Length
+           "hell" ${disp} * ${k} "hi"
         <p>`;
     
     massEl.innerHTML += hi;
