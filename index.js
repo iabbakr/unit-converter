@@ -17,7 +17,7 @@ convertEl.addEventListener("click", function(){
     disp.push(displayEl.value);
     let hi = `
         <p>
-           "hell" ${disp} * ${k} "hi"
+           "hell" ${disp} ${*} ${k} "hi"
         <p>`;
     
     massEl.innerHTML += hi;
