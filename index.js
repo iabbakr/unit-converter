@@ -22,14 +22,37 @@ convertEl.addEventListener("click", function(){
 
 
 function length(){
-    lengthEl.textContent = 12;
+    let len = 3.281;
+    if(displayEl){
+        return displayEl * len;
+    };
+    let hh = `
+    <p>
+        ${displayEl} "meters = " ${} 
+    </p>
+    `;
 
 };
 
 function volume(){
+    let vol = 0.264;
+    if(displayEl){
+        return displayEl * vol;
+    };
 
 };
 
 function mass(){
+    let mas = displayEl * 2.204;
+    hi = `
+    <h3>
+        Length (Meter/Feet)
+    </h3>
+    <p>
+        ${displayEl} "kilos = " ${mas}
+    </p>
+    `;
+
+    massEl.innerHTML = hi;
 
 };
