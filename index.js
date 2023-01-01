@@ -10,7 +10,7 @@ let convertEl = document.getElementById("converter");
 let massEl = document.getElementById("mass");
 
 let meter = 2;
-l
+
 
 
 
@@ -20,7 +20,7 @@ convertEl.addEventListener("click", function(){
     let s = parseInt(disp) + k;
     let hi = `
         <p>
-            "kilos = " ${s} "gallons"
+            "kilos" ${s} "gallons"
         <p>`;
     
     massEl.innerHTML += hi;
