@@ -17,10 +17,10 @@ let meter = 2;
 convertEl.addEventListener("click", function(){
     disp.push(displayEl.value);
 
-    let s = parseInt(disp) + k;
+    let s = disp + k;
     let hi = `
         <p>
-            "kilos" ${s} "gallons"
+            "kilos"${s}"gallons"
         <p>`;
     
     massEl.innerHTML += hi;
