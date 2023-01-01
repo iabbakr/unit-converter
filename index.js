@@ -30,7 +30,7 @@ function mas(){
 
     let hi = `
         <p>
-           ${disp} kilos = ${s} gallons | ${disp} pounds = ${l} kilos
+           ${disp} kilos = ${s.toFixed(2)} gallons | ${disp} pounds = ${l} kilos
         <p>`;
     
     massEl.innerHTML += hi;
