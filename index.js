@@ -42,7 +42,7 @@ function len(){
     lenEl.innerHTML += mF;
 };
 
-function len(){
+function vol(){
     disp.push(displayEl.value);
 
     let c = parseInt(disp) * gallon;
