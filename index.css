@@ -37,7 +37,6 @@ input{
     width: 85px;
     background-color: violet;
     border: 1px solid white;
-    font-weight: bolder;
     color: white;
     font-size: 8px;
     
@@ -57,19 +56,17 @@ button{
 
 }
 .row{
-    height: 50px;
+    height: 80px;
     width: auto;
     background-color: white;
     color: black;
     margin: 10px;
-    padding-top: 5px;
 }
 p{
 
 
 }
 h3{
-    font-weight: bold;
     color: white;
 
 }
