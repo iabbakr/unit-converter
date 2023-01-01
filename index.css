@@ -56,7 +56,7 @@ button{
 }
 .row{
     height: 50px;
-    width: auto;
+    width: 100px;
     background-color: white;
     color: black;
     margin: 10px;
