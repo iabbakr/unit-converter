@@ -10,16 +10,19 @@ let convertEl = document.getElementById("converter");
 let massEl = document.getElementById("mass");
 
 
+let pounds = 2.204;
+let kilos = 0.453;
+
+
 
 
 
 convertEl.addEventListener("click", function(){
-    
-    
-    let pounds = 2.204;
-    let kilos = 0.453;
-    
-    
+    mas();
+});
+
+
+function mas(){
     disp.push(displayEl.value);
 
     let s = parseInt(disp) * pounds;
@@ -31,16 +34,4 @@ convertEl.addEventListener("click", function(){
         <p>`;
     
     massEl.innerHTML += hi;
-});
-
-
-//
-
-//function mass(){
-    
-//    disp.push(displayEl.value);
-    
-//    let mas = displayEl * msV;
-    
-
-//};
+};
