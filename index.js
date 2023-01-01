@@ -20,7 +20,7 @@ convertEl.addEventListener("click", function(){
     let s = parseInt(disp) + k;
     let hi = `
         <p>
-           ${disp} "kilos = " ${s} "gallons"
+            "kilos = " ${s} "gallons"
         <p>`;
     
     massEl.innerHTML += hi;
