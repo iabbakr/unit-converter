@@ -22,7 +22,7 @@ convertEl.addEventListener("click", function(){
 
     let hi = `
         <p>
-           ${disp} kilos = ${s} gallons | ${disp} pounds = ${l} kilos
+           ${disp} kilos = Number.${s} gallons | ${disp} pounds = ${l} kilos
         <p>`;
     
     massEl.innerHTML += hi;
