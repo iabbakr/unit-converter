@@ -23,13 +23,16 @@ const kilo = 0.453;
 
 
 convertEl.addEventListener("click", function(){
+    disp.push(displayEl.value);
+
+    
     len();
     vol();
     mas();
 });
 
 function len(){
-    disp.push(displayEl.value);
+    
 
     let a = parseInt(disp) * feet;
     let b = parseInt(disp) * meter;
@@ -43,7 +46,6 @@ function len(){
 };
 
 function vol(){
-    disp.push(displayEl.value);
 
     let c = parseInt(disp) * gallon;
     let d = parseInt(disp) * liter;
@@ -58,7 +60,6 @@ function vol(){
 
 
 function mas(){
-    disp.push(displayEl.value);
 
     let e = parseInt(disp) * pound;
     let f = parseInt(disp) * kilo;
