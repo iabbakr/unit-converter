@@ -33,7 +33,7 @@ function len(){
     const b = parseInt(disp) * meter;
     const mF = `
         <p>
-           ${disp} meters = ${a.toFixed(2)} feets | ${disp} feets = ${b} meters
+           ${disp} meters = ${a.toFixed(2)} feets | ${disp} feets = ${b.toFixed(2)} meters
         <p>`;
     lenEl.innerHTML += mF;
 };
@@ -42,7 +42,7 @@ function vol(){
     const d = parseInt(disp) * liter;
     const lG = `
         <p>
-           ${disp} liters = ${c.toFixed(2)} gallons | ${disp} gallons = ${d} liters
+           ${disp} liters = ${c.toFixed(2)} gallons | ${disp} gallons = ${d.toFixed(2)} liters
         <p>`;
     volEl.innerHTML += lG;
 };
@@ -51,7 +51,7 @@ function mas(){
     const f = parseInt(disp) * kilo;
     const kP = `
         <p>
-           ${disp} kilos = ${e.toFixed(2)} pounds | ${disp} pounds = ${f} kilos
+           ${disp} kilos = ${e.toFixed(2)} pounds | ${disp} pounds = ${f.toFixed(2)} kilos
         <p>`;
     massEl.innerHTML += kP;
 };
