@@ -27,22 +27,25 @@ convertEl.addEventListener("click", function(){
     len();
     vol();
     mas();
+
+
 });
 function len(){
     const a = parseInt(disp) * feet;
     const b = parseInt(disp) * meter;
     const mF = `
         <p>
-           ${disp} meters = ${a.toFixed(2)} feets | ${disp} feets = ${b.toFixed(2)} meters
+           ${disp} meters = ${a.toFixed(3)} feets | ${disp} feets = ${b.toFixed(3)} meters
         <p>`;
     lenEl.innerHTML += mF;
+
 };
 function vol(){
     const c = parseInt(disp) * gallon;
     const d = parseInt(disp) * liter;
     const lG = `
         <p>
-           ${disp} liters = ${c.toFixed(2)} gallons | ${disp} gallons = ${d.toFixed(2)} liters
+           ${disp} liters = ${c.toFixed(3)} gallons | ${disp} gallons = ${d.toFixed(3)} liters
         <p>`;
     volEl.innerHTML += lG;
 };
@@ -51,7 +54,7 @@ function mas(){
     const f = parseInt(disp) * kilo;
     const kP = `
         <p>
-           ${disp} kilos = ${e.toFixed(2)} pounds | ${disp} pounds = ${f.toFixed(2)} kilos
+           ${disp} kilos = ${e.toFixed(3)} pounds | ${disp} pounds = ${f.toFixed(3)} kilos
         <p>`;
     massEl.innerHTML += kP;
 };
