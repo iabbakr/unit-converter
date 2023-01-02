@@ -23,6 +23,7 @@ const kilo = 0.453;
 
 
 convertEl.addEventListener("click", function(){
+    document.location.reload();
     disp.push(displayEl.value);
     len();
     vol();
