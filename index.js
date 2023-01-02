@@ -31,7 +31,7 @@ convertEl.addEventListener("click", function(){
 
 });
 function len(){
-    const a = parseInt(disp) * feet;
+    const a = parseInt(disp) * parseInt(feet);
     const b = parseInt(disp) * meter;
     const mF = `
         <p>
