@@ -29,6 +29,7 @@ convertEl.addEventListener("click", function(){
     vol();
     mas();
     displayEl.value = '';
+    mF = '';
     
 
 
@@ -41,7 +42,7 @@ function len(){
            ${disp} meters = ${a.toFixed(3)} feets | ${disp} feets = ${b.toFixed(3)} meters
         <p>`;
     lenEl.innerHTML += mF;
-    mF = '';
+    
 
 };
 function vol(){
@@ -52,7 +53,7 @@ function vol(){
            ${disp} liters = ${c.toFixed(3)} gallons | ${disp} gallons = ${d.toFixed(3)} liters
         <p>`;
     volEl.innerHTML += lG;
-    lG = '';
+    
 };
 function mas(){
     const e = parseInt(disp) * pound;
@@ -62,5 +63,5 @@ function mas(){
            ${disp} kilos = ${e.toFixed(3)} pounds | ${disp} pounds = ${f.toFixed(3)} kilos
         <p>`;
     massEl.innerHTML += kP;
-    kP = '';
+    
 };
