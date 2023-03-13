@@ -28,6 +28,7 @@ convertEl.addEventListener("click", function(){
     len();
     vol();
     mas();
+    displayEl.value = '';
     
 
 
