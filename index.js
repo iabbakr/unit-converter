@@ -61,5 +61,5 @@ function mas(){
         <p>`;
     massEl.innerHTML += kP;
 
-    massEl.value = '';
+    massEl = '';
 };
