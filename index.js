@@ -60,4 +60,6 @@ function mas(){
            ${disp} kilos = ${e.toFixed(3)} pounds | ${disp} pounds = ${f.toFixed(3)} kilos
         <p>`;
     massEl.innerHTML += kP;
+
+    massEl.value = '';
 };
